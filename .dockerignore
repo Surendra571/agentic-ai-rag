@@ -1,0 +1,39 @@
+# Version control
+.git
+.gitignore
+
+# Python cache & virtual environments
+.venv
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Tests & developer artifacts
+tests/
+scratch/
+*.log
+
+# Sensitive credentials & local environment files
+.env
+.env.*
+!.env.example
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker files
+docker-compose*.yml
+.dockerignore
+Dockerfile*
